@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Punktype';
+    src: url(/Fonts/Punktype.ttf);
+
+    
+}
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url(Fonts/Impact_Label.ttf);
+
+}
+
+nav{
+	width:50%;
+	margin:auto;
+	text-align:center;
+	padding:1px;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    margin-top:10rem;
+    bottom: 0;
+}
+
+a{
+    color: inherit;
+}
+
+button{
+  background-color: darkviolet;
+  border: none;
+  font-family: 'impact_labelregular';
+  font-size:3rem;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer; 
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  background-color:whitesmoke;
+  color:darkviolet;
+}
+
+#title{
+    font-family:'Punktype';
+    font-size: 10rem;
+    background-color: darkred;
+    text-shadow: -10px 0 black, 0 -10px black, -10px 0 black, 0 -10px black;
+    color:whitesmoke;
+    text-align: center;
+    width:100%;
+}
+
+#flag{
+ border:20rem;
+ border-color:darkred;
+}
+
+
+
+.Scrall{
+    font-family: 'impact_labelregular';
+    font-size: 3rem;
+    color:black;
+    text-shadow: -10px 0 darkviolet, 0 0px darkviolet, -10px 0 darkviolet, 0 0px darkviolet;
+    text-align: center;
+    display:grid;
+    grid-template-columns:repeat(10, 10fr);
+	grid-template-rows: repeat(10, 10rem);
+}
+
+.Scrall div:nth-child(1){
+    grid-column: 1/10;
+    grid-row: 1;
+}
+
+.Scrall div:nth-child(2){
+    grid-column: 3/8;
+    grid-row: 2;
+}
+
+.Scrall div:nth-child(3){
+  margin:auto;
+  padding:10px;
+  background-color:darkred;
+  grid-column: 1/10;
+  grid-row: 4/7;
+}
+
+.Scrall div:nth-child(4){
+  grid-column: 2/3;
+  grid-row: 8;
+}
+
+.Scrall div:nth-child(5){
+  grid-column: 4/7;
+  grid-row: 8;
+}
+.Scrall div:nth-child(6){
+  grid-column: 8/9;
+  grid-row: 8;
+}
+
+.Opener{
+    font-family: 'impact_labelregular';
+    text-align: center;
+    color:black;
+    text-shadow: -5px 0 darkred, 0 0px darkred, -5px 0 darkred, 0 0px darkviolet;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    float:top;
+}
+
+.Propaganda{
+    font-family: 'impact_labelregular';
+    color:black;
+    text-shadow: -10px 0 darkviolet, 0 0px darkviolet, -10px 0 darkviolet, 0 0px darkviolet;
+    display:grid;
+    margin:auto;
+    grid-template-columns:repeat(10, 10fr);
+	grid-template-rows: repeat(8, 10rem);
+}
+
+.Propaganda div:nth-child(1){
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.Propaganda div:nth-child(2){
+    grid-column: 4;
+    grid-row: 1;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.Propaganda div:nth-child(3){
+    grid-column: 8;
+    grid-row: 1;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.Propaganda div:nth-child(4){
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.Propaganda div:nth-child(5){
+    grid-column: 2/4;
+    grid-row: 3/8;
+    font-size: 1.5rem;
+}
+
+
+.Propaganda div:nth-child(6){
+    grid-column: 4/7;
+    grid-row: 3/8;
+    font-size: 1.5rem;
+}
+
+
+.Propaganda div:nth-child(7){
+    grid-column: 7/9;
+    grid-row: 3/8;
+    font-size: 1rem;
+}
+
+.Propaganda div:nth-child(8){
+    grid-column: 8/9;
+    grid-row: 3/8;
+    font-size: 2rem;
+}
+
+.Propaganda button{
+        background-color: darkviolet;
+        border: none;
+        font-family: 'impact_labelregular';
+        font-size:2rem;
+        font: black;
+        padding: 15px 10px;
+        margin-right: 0.75rem;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer; 
+        transition-duration: 0.4s;
+}
+.Propaganda button:hover{
+    background-color:whitesmoke;
+    color:darkviolet;
+    
+  }
+
+#NLink{
+    color: black;
+    background-color: darkred;
+}
